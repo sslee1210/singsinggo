@@ -1,0 +1,77 @@
+.errorMessageWrap {
+  color: #ef0000;
+}
+span {
+  color: #00c8f4;
+}
+.splashWrapper {
+  height: 100%;
+}
+.page {
+  margin: 0 auto;
+  width: 390px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 201px 0 241px;
+  background-color: #fff;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.titleWrap {
+  display: flex;
+  justify-content: center;
+  width: 390px;
+  padding: 30px 0;
+}
+.titleWrap .title {
+  width: 80%;
+}
+.bottomWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contentWrap {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 15px 10px;
+  box-sizing: border-box;
+  border: 2px solid #e6e6e6;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.input:focus {
+  outline: none;
+}
+.input::placeholder {
+  color: #999;
+  font-weight: 500;
+}
+.bottomWrapper {
+  width: 80%;
+}
+.LogInButton,
+.bottomButton {
+  width: 100%;
+  padding: 15px 10px;
+  box-sizing: border-box;
+  background-color: #00c8f4;
+  border-radius: 10px;
+  border: none;
+  margin: 5px 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.bottomButton {
+  background-color: #e6e6e6;
+  color: #3d3d3d;
+}

@@ -1,0 +1,46 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'SOYOMapleBoldTTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/SOYOMapleBoldTTF.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.calendarBox h2 {
+  font-family: 'SOYOMapleBoldTTF';
+  font-size: 1.35rem;
+}
+
+.fc .fc-media-screen .fc-direction-ltr .fc-theme-standard {
+  width: 100%;
+}
+.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr {
+  margin: 5px;
+}
+.fc .fc-toolbar-title {
+  font-size: 1rem;
+}
+.fc-scrollgrid-sync-inner {
+  padding: 2px 0;
+}
+.fc-direction-ltr {
+  text-align: center;
+}
+.fc-view-harness {
+  font-size: 0.7rem;
+}
+
+.fc .fc-daygrid-day-top {
+  flex-direction: column;
+}
+.fc .fc-daygrid-day-number {
+  cursor: pointer;
+}
+
+.fc-daygrid-day-frame.fc-scrollgrid-sync-inner {
+  height: 10px;
+  overflow: hidden;
+}
+table tbody {
+  height: 100px;
+}

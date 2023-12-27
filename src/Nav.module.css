@@ -1,0 +1,51 @@
+nav {
+  width: 390px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  z-index: 100;
+}
+.menu {
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 27px;
+  padding: 10px 30px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0px 0px 2.6px rgba(0, 0, 0, 0.045),
+    0px 0px 21px rgba(0, 0, 0, 0.09);
+}
+.addBtn {
+  width: 50px;
+  position: absolute;
+  top: -24px;
+}
+.navName {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+  text-align: center;
+}
+.navItem {
+  /* 일반적인 링크 스타일 */
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navLink {
+  /* 기본 링크 스타일 */
+  color: #b3b3b3;
+}
+.icon {
+  /* 아이콘 스타일 */
+  color: #b3b3b3;
+  font-size: 2rem;
+  text-align: center;
+}
+.selected {
+  /* 활성화된 링크 스타일 */
+  color: #00c8f4;
+  fill: #00c8f4;
+}

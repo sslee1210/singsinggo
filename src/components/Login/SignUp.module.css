@@ -1,0 +1,98 @@
+.errorMessageWrap {
+  color: #ef0000;
+  position: absolute;
+  font-size: 0.9rem;
+}
+.successMessageWrap {
+  position: absolute;
+  font-size: 0.9rem;
+}
+.bottomButton {
+  cursor: pointer;
+}
+.signUpErrMsg {
+  color: #ef0000;
+  text-align: center;
+  padding: 20px 0;
+}
+.page {
+  width: 390px;
+  margin: auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+.bottomButton:disabled {
+  color: #e6e6e6;
+}
+label {
+  width: 100%;
+}
+label .necessary {
+  color: #00c8f4;
+}
+label .signupList {
+  padding: 5px;
+}
+.header {
+  height: 150px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 8px 3px rgba(161, 157, 157, 0.35);
+  background-color: #fff;
+}
+.InputWrapper {
+  padding-top: 130px;
+  width: 80%;
+  margin: 0 auto;
+}
+.idBox {
+  display: flex;
+}
+.idBox button {
+  background-color: #e6e6e6;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.idBox .idChk {
+  border: none;
+  width: 100px;
+  border-radius: 10px;
+  padding: 15px 10px;
+  margin: 5px 0 5px 5px;
+}
+.signupList {
+  font-weight: 500;
+}
+.signUptitle {
+  color: #3d3d3d;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.signupBtnWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 144px;
+}
+.signupBtnWrapper .signupBtn {
+  width: 80%;
+  padding: 15px 10px;
+  border: none;
+  margin: 5px 0;
+  background-color: #00c8f4;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.signupBtnWrapper .signupBtn:last-child {
+  background-color: #e6e6e6;
+  color: #3d3d3d;
+}

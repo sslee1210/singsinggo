@@ -1,0 +1,183 @@
+/* Storage.module.css */
+.storageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  width: 390px;
+  margin: auto;
+  overflow: hidden;
+}
+.header {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 390px;
+  height: 120px;
+  background-color: #00c8f4;
+  box-shadow: 0px 0px 10px 3px rgba(161, 157, 157, 0.35);
+  /* background-color: #fff; */
+  z-index: 100;
+}
+.myTitle {
+  color: #fff;
+  top: 70px;
+  /* margin: 65px; */
+  font-weight: 500;
+  font-size: 1.3rem;
+  font-family: "SOYOMapleBoldTTF";
+}
+
+.plusBtn img {
+  width: 18px;
+}
+
+.myPageBtn img {
+  width: 22px;
+}
+.selectListWrapper {
+  overflow: scroll;
+  -ms-overflow-style: none;
+  width: 390px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  background-color: #e6e6e6;
+}
+
+.selectListWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.emptyWrapper {
+  box-shadow: 0px 0px 10px 3px rgba(161, 157, 157, 0.35);
+  border-radius: 70px 70px 0 0;
+  width: 90%;
+  height: 700px;
+  position: absolute;
+  background-color: white;
+  bottom: 0;
+  overflow: hidden;
+}
+.emptyMemoFirst {
+  background-color: #fffaa4;
+  width: 70%;
+  padding: 10px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.3rem;
+}
+.emptyMemoSecond {
+  background: url(../../../public/images/memo_green.svg) no-repeat 0% 50% /
+    cover;
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  top: 340px;
+  left: 30%;
+  transform: translateX(-30%);
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #999;
+}
+.emptyMemoThird {
+  background: url(../../../public/images/memo_orange.svg) no-repeat 100% 0% /
+    cover;
+  width: 200px;
+  height: 40px;
+  line-height: 3;
+  padding: 10px;
+  padding-left: 20px;
+  text-align: left;
+  position: absolute;
+  top: 400px;
+  left: 70%;
+  transform: translateX(-70%);
+  font-size: 1.1rem;
+  color: #999;
+  font-weight: bold;
+}
+.memoBg {
+  height: 125px;
+  background-color: #fffaa4;
+  padding: 20px;
+  border-radius: 0 0 15px 15px;
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  text-align: left;
+  box-sizing: border-box;
+}
+.memoBg .memoContent {
+  color: #3d3d3d;
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  margin-top: 5px;
+  word-break: break-all;
+  display: -webkit-box; /*필수 속성*/
+  -webkit-box-orient: vertical; /* 필수 속성 */
+  -webkit-line-clamp: 3; /*3줄까지 표시*/
+}
+
+.fridgeName {
+  color: #3d3d3d;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.fridgeNameWrapper {
+  height: 190px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.editBtn {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.editBtn {
+  width: 18px;
+}
+.orangeMagnet {
+  width: 35px;
+  position: absolute;
+  top: 173px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+}
+.memoItem {
+  background-color: #fff;
+  text-align: center;
+  width: 300px;
+  border-radius: 50px;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+  margin-bottom: 35px;
+  box-sizing: border-box;
+}
+.memoList {
+  position: absolute;
+}

@@ -1,0 +1,67 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard-dynamic-subset.css");
+
+@font-face {
+  font-family: "SOYOMapleBoldTTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/SOYOMapleBoldTTF.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+html * {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    sans-serif;
+}
+
+body {
+  background-color: #c9f5ff;
+}
+body,
+input,
+button {
+  margin: 0;
+  padding: 0;
+  color: #3d3d3d;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+input::placeholder {
+  color: #b3b3b3;
+  font-size: 1rem;
+}
+button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.screenSize {
+  width: 390px;
+  height: 844px;
+  /* position: relative;
+  top: 0; */
+  margin: calc((100vh - 844px) / 2) auto;
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.componentWrap {
+  height: 844px;
+  position: relative;
+}

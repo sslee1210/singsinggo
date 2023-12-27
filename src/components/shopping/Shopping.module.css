@@ -1,0 +1,162 @@
+/* shoppingList */
+
+.shopBg {
+  background-color: #fffba3;
+  /* width: 100%; */
+  width: 390px;
+  height: 844px;
+  margin: 0 auto;
+  /* position: sticky;
+  top: 0; */
+  overflow: hidden;
+}
+
+.shopBg .bgWrap {
+  position: relative;
+  padding-top: 95px;
+}
+.shopBg .bgWrap .magnetImg {
+  width: 85px;
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+.shopBg .bgWrap .shopWrap {
+  width: 340px;
+  /* height: 750px; */
+  min-height: 750px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2.6px rgba(0, 0, 0, 0.045),
+    0px 0px 21px rgba(0, 0, 0, 0.09);
+}
+.shopTitle {
+  font-family: "SOYOMapleBoldTTF";
+  font-size: 1.35rem;
+  padding: 10px;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+  margin: 55px 0 45px;
+  text-align: center;
+}
+
+.noneList {
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #fffba3;
+  padding: 15px;
+  margin: 80px 10px 55px;
+  text-align: center;
+}
+
+/* input */
+.shoppingListInput {
+  width: 290px;
+  font-size: 1.25rem;
+  border-bottom: 1px dashed #ddd;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  margin: 0 auto 40px;
+  box-sizing: border-box;
+}
+
+.listAdd {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+.addBtn img {
+  width: 14px;
+}
+.allDelBtn {
+  position: absolute;
+  top: 318px;
+  right: 49px;
+  margin-bottom: 25px;
+  background-color: #f1f1f1;
+  color: #828282;
+  padding: 5px;
+  border-radius: 5px;
+}
+.allDelBtn img {
+  width: 15px;
+}
+/* 쇼핑리스트  */
+.scrollWrap {
+  overflow: scroll;
+  height: 210px;
+}
+.scrollWrap::-webkit-scrollbar {
+  width: 5px;
+}
+.scrollWrap::-webkit-scrollbar-thumb {
+  background-color: #e6e6e6;
+  border-radius: 20px;
+}
+/* 쇼핑리스트 아이템 */
+.listItem {
+  width: 285px;
+  padding: 10px 0;
+  border-bottom: 1px dashed #ddd;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.listItem .listIcon {
+  width: 15px;
+}
+.listItem p {
+  width: 190px;
+  margin: 0;
+}
+/* 외부링크 아이콘 */
+.linkContainer {
+  width: 290px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.linkText {
+  height: 80px;
+  position: relative;
+  /* margin: 30px 0 0; */
+  padding: 30px 0 10px;
+  /* border-top: 1px dashed #e6e6e6; */
+  /* padding: 30px 0; */
+  /* box-sizing: border-box; */
+}
+.linkText p {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #828282;
+  background-color: #f1f1f1;
+  margin: 0;
+}
+.linkText .exShopping {
+  text-align: left;
+  width: 150px;
+  padding: 5px 13px 5px 16px;
+}
+.linkText .exOnline {
+  margin: 0;
+  width: 140px;
+  padding: 10px 13px;
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+.linkWrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.linkBanner .bannerIcon {
+  width: 45px;
+}

@@ -1,0 +1,169 @@
+/* StorageInput.module.css */
+.storageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 100%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 50px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  background-color: #00c8f4;
+  width: 390px;
+  height: 300px;
+  position: relative;
+}
+.header .upperBackBtn {
+  position: absolute;
+  top: 11%;
+  left: 30px;
+  border: none;
+  background-color: transparent;
+}
+.resisterTitle {
+  color: white;
+  position: absolute;
+  top: 50px;
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.3rem;
+  font-family: "SOYOMapleBoldTTF";
+}
+.storageInputWrapper {
+  width: 390px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+.InnerInputWrapper {
+  background-color: #fff;
+  box-shadow: 0px 0px 8px 3px rgba(161, 157, 157, 0.35);
+  border-radius: 70px 70px 0 0;
+  width: 100%;
+  height: 724px;
+  position: absolute;
+  bottom: 0;
+}
+.storageNameInput {
+  border: none;
+  background-color: transparent;
+  font-weight: 500;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  height: 30px;
+  line-height: 70px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-bottom: 1px solid #e6e6e6;
+}
+.storageNameInput::placeholder {
+  color: #999;
+  font-size: 1rem;
+}
+.storageNameInput:focus,
+.storageMemoInput:focus {
+  outline: none;
+}
+.storageMemoWrapper {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 230px;
+  left: 50%;
+}
+.storageMemoInput {
+  border: none;
+  background-color: #fffaa4;
+  width: 200px;
+  height: 100px;
+  line-height: 40px;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  font-weight: 500;
+  z-index: 1000;
+}
+.storageMemoInput::placeholder {
+  color: #999;
+}
+.storageMemoWrapper::before {
+  content: "";
+  width: 120px;
+  height: 150px;
+  background: url(../../../public/images/fridge_memo1.svg) no-repeat 50% 0 /
+    contain;
+  position: absolute;
+  top: -50px;
+  right: 60px;
+}
+.storageMemoWrapper::after {
+  content: "";
+  width: 100px;
+  height: 60px;
+  background: url(../../../public/images/fridge_memo2.svg);
+  position: absolute;
+  top: 100px;
+  left: -130px;
+}
+.backMemo {
+  width: 130px;
+  height: 130px;
+  background: url(../../../public/images/fridge_memo3.svg) no-repeat 50% 0 /
+    contain;
+  position: absolute;
+  top: 360px;
+  right: 60px;
+}
+
+.saveBtn,
+.backBtn,
+.deleteBtn {
+  width: 85px;
+  border: none;
+  padding: 10px 25px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  position: absolute;
+  top: 80%;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+.saveBtn {
+  color: #fff;
+  background-color: #00c8f4;
+  left: 26%; /* 'right'를 'left'로 변경 */
+}
+.backBtn,
+.deleteBtn {
+  right: 26%; /* 'left'를 'right'로 변경 */
+  background-color: #e6e6e6;
+}
+.upperBackBtn {
+  background: url(../../../public/images/food_back.svg) no-repeat 50% / contain;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.orangeMagnet {
+  width: 30px;
+  position: absolute;
+  top: -15px;
+  transform: translateX(-50%);
+  z-index: 10000;
+}
