@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/singsinggo/static/css/main.c1be5e5d.css",
+    "main.js": "/singsinggo/static/js/main.8e500cb0.js",
+    "static/media/memo_green.svg": "/singsinggo/static/media/memo_green.0931193258bb18b5c48d.svg",
+    "index.html": "/singsinggo/index.html",
+    "static/media/search.svg": "/singsinggo/static/media/search.5fe1787759cddf4eaf26.svg",
+    "static/media/foodDate_drop.svg": "/singsinggo/static/media/foodDate_drop.1516aa76f7e543b95d3a.svg",
+    "static/media/food_back.svg": "/singsinggo/static/media/food_back.b158e814e33b128bce07.svg",
+    "static/media/fridge_memo1.svg": "/singsinggo/static/media/fridge_memo1.fe3161f9eb00a6e8f328.svg",
+    "static/media/memo_orange.svg": "/singsinggo/static/media/memo_orange.ad5c964952a962cb9d3d.svg",
+    "static/media/fridge_memo3.svg": "/singsinggo/static/media/fridge_memo3.5d8cd4676da22025ebbd.svg",
+    "static/media/fridge_memo2.svg": "/singsinggo/static/media/fridge_memo2.93276aa147d92afc00fd.svg",
+    "main.c1be5e5d.css.map": "/singsinggo/static/css/main.c1be5e5d.css.map",
+    "main.8e500cb0.js.map": "/singsinggo/static/js/main.8e500cb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1be5e5d.css",
+    "static/js/main.8e500cb0.js"
+  ]
+}
