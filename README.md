@@ -28,7 +28,7 @@
    ![guide](https://github.com/sslee1210/singsinggo/assets/142865231/1a18a70f-b0d1-49e5-8f87-bd4ae4124b71)
 4. **요구 사항 분석 :** 필요한 기능 및 규격 분석
 5. **디렉토리 구조 분석 :** 프로젝트 구조 및 파일 시스템 설정
-![directory](https://github.com/sslee1210/singsinggo/assets/142865231/80138372-0c3f-4966-83d7-cae99d345f5c)
+<img src="https://github.com/sslee1210/singsinggo/blob/master/assets/142865231/5ef7e00d-1a5b-4a03-a944-5c7908b1a044.png?raw=true" width="200" height="400"/>
 6. **코딩 및 디자인 가이드 작성 :** 개발 및 디자인 표준 설정
    <img src="https://github.com/sslee1210/singsinggo/assets/142865231/5ef7e00d-1a5b-4a03-a944-5c7908b1a044.png  width="200" height="400"/>
 7. **UI/UX 디자인:** 사용자 인터페이스 및 디자인 적용
