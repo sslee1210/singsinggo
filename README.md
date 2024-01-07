@@ -30,7 +30,7 @@
 5. **디렉토리 구조 분석 :** 프로젝트 구조 및 파일 시스템 설정
 ![싱싱고_디렉토리구조](https://github.com/sslee1210/singsinggo/assets/142865231/80138372-0c3f-4966-83d7-cae99d345f5c)
 6. **코딩 및 디자인 가이드 작성 :** 개발 및 디자인 표준 설정
-<img src="https://github.com/sslee1210/singsinggo/assets/142865231/5ef7e00d-1a5b-4a03-a944-5c7908b1a044" width="200" height="400"/>
+<img src="https://github.com/sslee1210/singsinggo/assets/142865231/5ef7e00d-1a5b-4a03-a944-5c7908b1a044" width="1100" height="auto"/>
 7. **UI/UX 디자인:** 사용자 인터페이스 및 디자인 적용
 8. **페이지 기능 구현:** 앱 내 각 페이지의 기능을 구현
 9. **PPT 제작 및 발표:** 앱 주요 기능 소개 및 설명
