@@ -3,40 +3,43 @@
 ---
 
 ## 🎯 프로젝트의 비전
- "리액트를 활용하여 식품 유통기한 관리 시스템을 구현하며, 팀워크를 바탕으로 프로젝트를 성공적으로 완수"
 <p align="center">
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/fd9fa04d-af59-4279-b037-010b70035b2b.png"  width="400" height="auto"/>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/fd9fa04d-af59-4279-b037-010b70035b2b.png"  width="200" height="auto"/>
 </p>
 
+ "리액트를 활용하여 식품 유통기한 관리 시스템을 구현하며, 팀워크를 바탕으로 프로젝트를 성공적으로 완수"
 
-## 💡 핵심 기능과 가치
+
+## 💡 핵심 기능
 
 ### 냉장고 관리
+<p>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/92d6c9b8-08a9-40d8-9527-b58e07f8ff21.png"  width="150" height="auto"/>
+</p>
 
 - 사용자의 식품 관리를 효율적으로 돕는다.
 - 식품 낭비를 줄이고, 사용자의 경제적 부담을 감소시킨다.
-<p align="center">
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/92d6c9b8-08a9-40d8-9527-b58e07f8ff21.png"  width="400" height="auto"/>
+
+---
+
+### 장바구니
+<p>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/71a48aaa-8789-44e5-8bfc-8c76777dcff5.png"  width="150" height="auto"/>
 </p>
-
-
-
-### 장바구니 기능
 
 - 식품 구매의 효율성을 증대시키고 건강한 식습관을 유도한다.
-<p align="center">
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/71a48aaa-8789-44e5-8bfc-8c76777dcff5.png"  width="400" height="auto"/>
+
+---
+
+### 달력
+<p>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/452ad1f0-65ff-48b8-b79c-e67696d3aaed.png"  width="150" height="auto"/>
 </p>
-
-
-### 달력 기능
 
 - 보관한 식품의 유통기한을 한눈에 파악할 수 있다.
 - 사용자가 식품을 안전하게 섭취할 수 있도록 돕는다.
-<p align="center">
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/452ad1f0-65ff-48b8-b79c-e67696d3aaed.png"  width="400" height="auto"/>
-</p>
 
+---
 
 ## 🛠 사용 기술 및 도구
 - **TOOL:** `Github` `Figma` `Notion` `Google spread sheet` `Adobe Illustrator`
@@ -128,11 +131,11 @@
 
 ## 프로젝트 완료 리뷰
 - **아쉬웠던 점:** 리액트를 활용함에 어렵고 서툴렀던 탓에 프로젝트 진행 속도가 늦어짐
-- **성취감:** 잠을 줄이고 공부 시간을 더 늘려 능력을 더 향상시킴
+- **잘한 점:** 잠을 줄이고 공부 시간을 더 늘려 능력을 더 향상시킴
 - **배운 점:** 리액트와 관련한 기술적 이해도를 상승시키고 기간 내에 프로젝트를 마무리 지을 수 있었음
 
 - **아쉬웠던 점:** 낯을 많이 가리는 성격이라 팀원들과 좋은 팀워크를 이루지 못할 거라 생각했음
-- **성취감:** 두려움을 가득 안고 있었지만 먼저 다가가기로 용기를 냄. 결국 팀원들과의 원활한 커뮤니케이션 및 협력을 통해 프로젝트를 성공적으로 완성
+- **잘한 점:** 두려움을 가득 안고 있었지만 먼저 다가가기로 용기를 냄. 결국 팀원들과의 원활한 커뮤니케이션 및 협력을 통해 프로젝트를 성공적으로 완성
 - **배운 점:** 처음 한번이 어렵고 다음은 어렵지 않다는걸 깨달음. 팀원들과의 원활한 커뮤니케이션을 통한 협업 능력을 향상시킴 또한 밝은 팀 분위기를 유지하고, 팀원들을 이끌 수 있는 리더십 능력을 키움.
 
 ## [**🔗 싱싱고 바로가기**](https://sslee1210.github.io/singsinggo/)
