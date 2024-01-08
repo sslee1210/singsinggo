@@ -62,7 +62,7 @@
    
   
 7. **요구 사항 분석 :** 필요한 기능 및 규격 분석
-8. ![싱싱고 요구사항](https://github.com/sslee1210/singsinggo/assets/142865231/bb5afb6b-347d-4fd9-8d36-9baf7f1034cd)
+   ![싱싱고 요구사항](https://github.com/sslee1210/singsinggo/assets/142865231/bb5afb6b-347d-4fd9-8d36-9baf7f1034cd)
    
    
 10. **디렉토리 구조 분석 :** 프로젝트 구조 및 파일 시스템 설정
