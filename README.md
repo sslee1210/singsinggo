@@ -142,7 +142,7 @@
 
 
 
-**페이지가 로드될 때 로컬 스토리지에서 유저 정보를 불러옴**
+**1. 페이지가 로드될 때 로컬 스토리지에서 유저 정보를 불러옴**
 
 ```
   useEffect(() => {
@@ -164,7 +164,7 @@
 ```
 
 
-**로그인 버튼을 클릭했을 때 호출되는 핸들러**
+**1-1. 로그인 버튼을 클릭했을 때 호출되는 핸들러**
 ```
   const handleLogin = () => {
     const users = JSON.parse(localStorage.getItem("users")); // 로컬 스토리지에서 "users" 항목의 값을 가져와서 파싱
@@ -208,7 +208,7 @@
 
 
 
-**useEffect Hook을 사용하여 로컬 스토리지와 상태 업데이트 관리**
+**3. useEffect Hook을 사용하여 로컬 스토리지와 상태 업데이트 관리**
 ```
   useEffect(() => {
     localStorage.setItem("foodList", JSON.stringify(foodList));
@@ -244,7 +244,7 @@ const saveChanges = () => {
 ```
 
 
-**식료품 수정 모달창**
+**3-1. 식료품 수정 모달창**
 ```
       // isModalOpen이 참일 때만 모달을 표시
       {isModalOpen && (
@@ -254,9 +254,7 @@ const saveChanges = () => {
               src={path + "/images/food_back_blue.svg"}
               alt="뒤로가기"
               className={styles.back}
-              onClick={closeModal}
-            />
-
+              onClick={closeModal}/>
             <h2>싱싱고 수정하기</h2>
 
         // setEditingFood 함수를 호출하여 editingFood 상태의 category 값을 업데이트
@@ -264,16 +262,14 @@ const saveChanges = () => {
               <select
                 value={editingFood.category}
                 onChange={(e) =>
-                  setEditingFood({ ...editingFood, category: e.target.value })
-                }>
+                  setEditingFood({ ...editingFood, category: e.target.value })}>
                 {categoryOptions.map(
                   (category, index) =>
                     category !== "전체" && (
                       <option key={index} value={category}>
                         {category}
                       </option>
-                    )
-                )}
+                    ))}
               </select>
             </label>
 
@@ -285,8 +281,7 @@ const saveChanges = () => {
                 value={editingFood.foodName}
                 onChange={(e) =>
                   setEditingFood({ ...editingFood, foodName: e.target.value })
-                }
-              />
+                }/>
             </label>
 
         // 입력된 값이 변경되면 setEditingFood 함수를 호출하여 수정된 수량 값으로 업데이트
@@ -298,8 +293,7 @@ const saveChanges = () => {
                 onChange={(e) =>
                   setEditingFood({ ...editingFood, quantity: e.target.value })
                 }
-                required
-              />
+                required/>
             </label>
 
         // 입력된 값이 변경되면 setEditingFood 함수를 호출하여 수정된 구매일과 소비기간 값으로 업데이트
@@ -313,11 +307,9 @@ const saveChanges = () => {
                     setEditingFood({
                       ...editingFood,
                       purchaseDate: e.target.value,
-                    })
-                  }
-                  required
-                />
+                    })}required/>
               </label>
+
               <label>
                 <span>소비기간</span>
                 <input
@@ -327,10 +319,7 @@ const saveChanges = () => {
                     setEditingFood({
                       ...editingFood,
                       expirationDate: e.target.value,
-                    })
-                  }
-                  required
-                />
+                    })}required/>
               </label>
 
         // 입력된 값이 변경되면 setEditingFood 함수를 호출하여 수정된 메모 값을 업데이트
@@ -341,8 +330,7 @@ const saveChanges = () => {
                 value={editingFood.note}
                 onChange={(e) =>
                   setEditingFood({ ...editingFood, note: e.target.value })
-                }
-              />
+                }/>
             </label>
 ```
 
