@@ -1,7 +1,7 @@
 # 🍅 싱싱고 프로젝트: 식품 유통기한 관리 웹 애플리케이션
 
 <p align="center">
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/8c284e15-5870-4a6c-884e-cc12880c97e4.png"  width="300" height="auto"/>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/fd9fa04d-af59-4279-b037-010b70035b2b.png"  width="300" height="auto"/>
 </p>
 
 ---
@@ -12,37 +12,40 @@
 ---
 
 ## 💡 핵심 기능과 가치
-<details>
-<summary>냉장고 관리</summary>
+
+### 냉장고 관리
 
 - 사용자의 식품 관리를 효율적으로 돕는다.
 - 식품 낭비를 줄이고, 사용자의 경제적 부담을 감소시킨다.
-</details>
 
-<details>
-<summary>장바구니 기능</summary>
+
+
+### 장바구니 기능
 
 - 식품 구매의 효율성을 증대시키고 건강한 식습관을 유도한다.
-</details>
 
-<details>
-<summary>달력 기능</summary>
+
+
+### 달력 기능
 
 - 보관한 식품의 유통기한을 한눈에 파악할 수 있다.
 - 사용자가 식품을 안전하게 섭취할 수 있도록 돕는다.
-</details>
+
 
 ---
 
 ## 🛠 사용 기술 및 도구
 - **TOOL:** `Github` `Figma` `Notion` `Google spread sheet` `Adobe Illustrator`
+  
 - **WEB FRAMEWORK:** `REACT` `JavaScript` `CSS3`
 
 ---
 
 ## 👥 팀원 및 역할
-- **이성수:** 프로젝트 리더, 주요 기능 구현(Login, Storage, Food)
-- **성영은:** 프로젝트 진행 기록, 기능 구현(Calendar, Shopping)
+- **이성수:** 프로젝트 리더, 주요 기능 구현
+    - Login, Storage, Food
+- **성영은:** 프로젝트 진행 기록, 기능 구현
+    - Calendar, Shopping
 - **정하솔:** Github 관리, 디자인 총괄
 - **조유빈:** 디렉토리 관리, 기능 및 디자인 구현
 
@@ -76,7 +79,7 @@
     - 설명이 필요한 부분은 주석을 통해 작성한다.
     - 화살표 함수를 사용하여 작성한다.
     - 들여쓰기는 space 2로 통일한다.
-    - 특별한 기능이 없는 곳에 사용하는 태그는 <div>로 통일한다.
+    - 특별한 기능이 없는 곳에 사용하는 태그는 `<div>`로 통일한다.
   
 12. **UI/UX 디자인:** 사용자 인터페이스 및 디자인 적용
     
@@ -84,7 +87,7 @@
     
 16. **PPT 제작 및 발표:** 앱 주요 기능 소개 및 설명
 
-작업일지: [작업일지 바로가기](https://www.notion.so/86f809ad5b794106b5941114d4377b67?v=16ddbdec031b4dafbe9e2bb8c0cd5a3d)
+작업일지: <a href="https://www.notion.so/86f809ad5b794106b5941114d4377b67?v=16ddbdec031b4dafbe9e2bb8c0cd5a3d" target="_blank">작업일지 바로가기</a>
 
 ---
 
