@@ -1,5 +1,5 @@
 # 🍅 싱싱고 프로젝트: 식품 유통기한 관리 웹 애플리케이션
-<img src="https://github.com/sslee1210/singsinggo/assets/142865231/ff680398-4d88-48f2-b1ad-ca91fd19a5d0" width="300" height="auto"/>
+
 
 ---
 
@@ -39,6 +39,7 @@
 
 ## 🚀 프로젝트 진행 및 성과
 1. **주요 기능 선정:** 어플리케이션의 핵심 기능을 결정
+  -나만의 냉장고 등록  -식료품 추가/수정/삭제  -식료품 보관 날짜 확인
    
 3. **역할 분담:** 팀 내 역할 분배 및 책임 영역 설정
    
@@ -52,7 +53,7 @@
    ![싱싱고_디렉토리구조](https://github.com/sslee1210/singsinggo/assets/142865231/80138372-0c3f-4966-83d7-cae99d345f5c)
   
 11. **코딩 및 디자인 가이드 작성 :** 개발 및 디자인 표준 설정
-   <img src="https://github.com/sslee1210/singsinggo/assets/142865231/5ef7e00d-1a5b-4a03-a944-5c7908b1a044" width="800" height="auto"/>
+
   
 12. **UI/UX 디자인:** 사용자 인터페이스 및 디자인 적용
     
