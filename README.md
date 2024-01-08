@@ -1,15 +1,13 @@
 # 🍅 싱싱고 프로젝트: 식품 유통기한 관리 웹 애플리케이션
 
-<p align="center">
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/fd9fa04d-af59-4279-b037-010b70035b2b.png"  width="400" height="auto"/>
-</p>
-
 ---
 
 ## 🎯 프로젝트의 비전
  "리액트를 활용하여 식품 유통기한 관리 시스템을 구현하며, 팀워크를 바탕으로 프로젝트를 성공적으로 완수"
+<p align="center">
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/fd9fa04d-af59-4279-b037-010b70035b2b.png"  width="400" height="auto"/>
+</p>
 
----
 
 ## 💡 핵심 기능과 가치
 
