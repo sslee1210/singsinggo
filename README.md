@@ -11,7 +11,7 @@
 
 ### 냉장고 관리
 <p>
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/92d6c9b8-08a9-40d8-9527-b58e07f8ff21.png"  width="150" height="auto"/>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/92d6c9b8-08a9-40d8-9527-b58e07f8ff21.png"  width="180" height="auto"/>
 </p>
 
 - 식품 등록, 수정, 삭제 가능
@@ -22,7 +22,7 @@
 
 ### 장바구니
 <p>
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/71a48aaa-8789-44e5-8bfc-8c76777dcff5.png"  width="150" height="auto"/>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/71a48aaa-8789-44e5-8bfc-8c76777dcff5.png"  width="180" height="auto"/>
 </p>
 
 - 마트에서 장을 보기 전 사용자가 구매할 식료품들을 미리 메모
@@ -33,7 +33,7 @@
 
 ### 달력
 <p>
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/452ad1f0-65ff-48b8-b79c-e67696d3aaed.png"  width="150" height="auto"/>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/452ad1f0-65ff-48b8-b79c-e67696d3aaed.png"  width="180" height="auto"/>
 </p>
 
 - 언제 식품을 보관 했는지 한 눈에 파악 가능
@@ -67,24 +67,24 @@
    - 식료품 추가/수정/삭제
    - 식료품 보관 날짜 확인
    
-3. **역할 분담:** 팀 내 역할 분배 및 책임 영역 설정
+2. **역할 분담:** 팀 내 역할 분배 및 책임 영역 설정
    
-5. **사용자 시나리오 & 워크플로우 & 유스케이스 작성:** 사용자의 행동 패턴 및 앱 사용 흐름 도출
+3. **사용자 시나리오 & 워크플로우 & 유스케이스 작성:** 사용자의 행동 패턴 및 앱 사용 흐름 도출
    
    ![싱싱고_워크플로우](https://github.com/sslee1210/singsinggo/assets/142865231/1a18a70f-b0d1-49e5-8f87-bd4ae4124b71)
    
   
-7. **요구 사항 분석 :** 필요한 기능 및 규격 분석
+4. **요구 사항 분석 :** 필요한 기능 및 규격 분석
    
    ![싱싱고 요구사항](https://github.com/sslee1210/singsinggo/assets/142865231/bb5afb6b-347d-4fd9-8d36-9baf7f1034cd)
    
    
-10. **디렉토리 구조 분석 :** 프로젝트 구조
+5. **디렉토리 구조 분석 :** 프로젝트 구조
     
    ![싱싱고_디렉토리구조](https://github.com/sslee1210/singsinggo/assets/142865231/80138372-0c3f-4966-83d7-cae99d345f5c)
    
   
-12. **코딩 및 디자인 가이드 작성 :** 개발 및 디자인 표준 설정
+6. **코딩 및 디자인 가이드 작성 :** 개발 및 디자인 표준 설정
 
     - 클래스 네임은 쉽게 알아볼 수 있는 이름으로 작성하고 네 단어 이상의 사용을 지양한다. 카멜 표기법으로 작성한다.
     - const 선언방식을 사용한다.
@@ -96,14 +96,14 @@
     - 들여쓰기는 space 2로 통일한다.
     - 특별한 기능이 없는 곳에 사용하는 태그는 `<div>`로 통일한다.
   
-13. **UI/UX 디자인:** 사용자 인터페이스 및 디자인 적용
+7. **UI/UX 디자인:** 사용자 인터페이스 및 디자인 적용
     
     ![싱싱고UI](https://github.com/sslee1210/singsinggo/assets/142865231/2c08196a-c7b3-4e16-8d6a-fa48786f3259)
     
     
-15. **페이지 기능 구현:** 앱 내 각 페이지의 기능을 구현
+8. **페이지 기능 구현:** 앱 내 각 페이지의 기능을 구현
     
-16. **PPT 제작 및 발표:** 앱 주요 기능 소개 및 설명
+9. **PPT 제작 및 발표:** 앱 주요 기능 소개 및 설명
 
 ## [**🔗 작업일지 바로가기**](https://www.notion.so/86f809ad5b794106b5941114d4377b67?v=16ddbdec031b4dafbe9e2bb8c0cd5a3d)
 
@@ -168,17 +168,140 @@
   - **해결:**
     - full-calendar 라는 다른 플러그인을 사용하여 플러그인이 가지고 있는 날짜에 따른 이벤트를 띄우는 기능을 통해 원하는 기능을 구현 함
 
-#### 상황 4
+#### 상황 3
   - **상황:**
-    - 식료품 수정을 하고 나서 새로고침을 해야 리스트가 업데이트 되는 점, 수정 시 원래의 값이 모두 뜨지 않는 문제점들이 생김
+    - 다른 팀원이 맡은 부분인 Food 페이지에서 식료품 수정을 하고 나서 새로고침을 해야 리스트가 업데이트 되는 점, 수정 시 원래의 값이 모두 뜨지 않는 문제점들이 생김
       
   - **문제 확인:**
-    - 모달창으로 띄우는 방식에서 데이터를 불러오는 경로가 꼬인거 같음
+    - 원인 파악을 못하고있고 내가 봤을 땐 수정 컴포넌트를 모달창으로 띄우는 방식에서 데이터를 불러오는 경로가 꼬인거 같음
+      
+```
+// useEffect Hook을 사용하여 로컬 스토리지와 상태 업데이트 관리
+  useEffect(() => {
+    localStorage.setItem("foodList", JSON.stringify(foodList));
+    setSortedFoodList(foodList);
+  }, [foodList]);
+// 음식 편집 모달 열기 함수
+  const openModal = (food, index) => {
+    // 편집 중인 음식의 인덱스 및 내용 설정, 모달 열기
+    const foodIndex = foodList.findIndex((f) => f === food);
+    setEditingIndex(foodIndex);
+    setEditingFood({ ...food });
+    setIsModalOpen(true);
+  };
+
+  // 음식 편집 모달 닫기 함수
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  // 변경된 내용 저장 함수
+  const saveChanges = () => {
+    // 수정된 음식 정보로 목록 업데이트, 모달 닫기
+    const newList = [...foodList];
+    newList[editingIndex] = editingFood;
+    setFoodList(newList);
+    closeModal();
+  };
+```
+
+```
+{/* 음식 편집 모달 */}
+      {isModalOpen && (
+        <div className={styles.modal}>
+          <div className={styles.modalBox}>
+            {/* 모달 상단: 뒤로가기, 제목 */}
+            <img
+              src={path + "/images/food_back_blue.svg"}
+              alt="뒤로가기"
+              className={styles.back}
+              onClick={closeModal}
+            />
+            <h2>싱싱고 수정하기</h2>
+
+            {/* 음식 정보 편집 입력란 */}
+            <label>
+              <select
+                value={editingFood.category}
+                onChange={(e) =>
+                  setEditingFood({ ...editingFood, category: e.target.value })
+                }>
+                {categoryOptions.map(
+                  (category, index) =>
+                    category !== "전체" && (
+                      <option key={index} value={category}>
+                        {category}
+                      </option>
+                    )
+                )}
+              </select>
+            </label>
+            <label className={styles.editName}>
+              <span>식재료명</span>
+              <input
+                type="text"
+                value={editingFood.foodName}
+                onChange={(e) =>
+                  setEditingFood({ ...editingFood, foodName: e.target.value })
+                }
+              />
+            </label>
+            <label className={styles.editNum}>
+              <span>수량</span>
+              <input
+                type="number"
+                value={editingFood.quantity}
+                onChange={(e) =>
+                  setEditingFood({ ...editingFood, quantity: e.target.value })
+                }
+                required
+              />
+            </label>
+            <div className={styles.dateBox}>
+              <label>
+                <span>구매일</span>
+                <input
+                  type="date"
+                  value={editingFood.purchaseDate}
+                  onChange={(e) =>
+                    setEditingFood({
+                      ...editingFood,
+                      purchaseDate: e.target.value,
+                    })
+                  }
+                  required
+                />
+              </label>
+              <label>
+                <span>소비기간</span>
+                <input
+                  type="date"
+                  value={editingFood.expirationDate}
+                  onChange={(e) =>
+                    setEditingFood({
+                      ...editingFood,
+                      expirationDate: e.target.value,
+                    })
+                  }
+                  required
+                />
+              </label>
+            </div>
+            <label className={styles.editMemo}>
+              <span>메모</span>
+              <textarea
+                value={editingFood.note}
+                onChange={(e) =>
+                  setEditingFood({ ...editingFood, note: e.target.value })
+                }
+              />
+            </label>
+```
       
   - **해결:**
     - 코드를 싹 다 갈아엎고 처음부터 다시 작성하여 오류를 없앰
 
-#### 상황 5
+#### 상황 4
   - **상황:**
     - 로컬 스토리지로는 각 사용자마다 다른 식료품 목록을 보여주는 구현이 어려움
     
@@ -188,12 +311,12 @@
   - **해결:**
     - 프로젝트가 끝난 후 혼자 독학하며 연결하기로 함
 
-#### 상황 6
+#### 상황 5
   - **상황:**
     - 어색한 분위기에 서로 소통도 잘 안되어 역할을 분담하거나 개개인의 작업 진행 상황을 판단하지 못함
       
   - **문제 확인:**
-    - 팀원들이 낯을 많이 가린다는 걸 확인 함
+    - 팀원들이 낯을 많이 가리기도하고 말주변이 없음
       
   - **해결:**
     - 팀원들에게 먼저 다가가 단톡방을 만들고 먼저 대화를 주도하여 친밀감을 형성시키고 밝은 분위기로 회의를 이끔
