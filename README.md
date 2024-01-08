@@ -35,9 +35,8 @@
 ---
 
 ## 🛠 사용 기술 및 도구
-- **프로젝트 관리 도구:** `Github` `Figma` `Notion` `Google spread sheet`
-- **개발 도구:** `Visual Code` `Adobe Illustrator`
-- **웹 프레임워크:** `REACT` `JavaScript` `CSS3`
+- **TOOL:** `Github` `Figma` `Notion` `Google spread sheet` `Adobe Illustrator`
+- **WEB FRAMEWORK:** `REACT` `JavaScript` `CSS3`
 
 ---
 
