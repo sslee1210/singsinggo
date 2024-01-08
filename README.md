@@ -17,6 +17,9 @@
 
 - 사용자의 식품 관리를 효율적으로 돕는다.
 - 식품 낭비를 줄이고, 사용자의 경제적 부담을 감소시킨다.
+<p align="center">
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/92d6c9b8-08a9-40d8-9527-b58e07f8ff21.png"  width="400" height="auto"/>
+</p>
 
 
 
