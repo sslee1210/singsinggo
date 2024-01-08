@@ -87,7 +87,7 @@
     
 16. **PPT 제작 및 발표:** 앱 주요 기능 소개 및 설명
 
-작업일지: <a href="https://www.notion.so/86f809ad5b794106b5941114d4377b67?v=16ddbdec031b4dafbe9e2bb8c0cd5a3d" target="_blank">작업일지 바로가기</a>
+>[**🔗 작업일지 바로가기**](https://www.notion.so/86f809ad5b794106b5941114d4377b67?v=16ddbdec031b4dafbe9e2bb8c0cd5a3d){: target="_blank"}
 
 ---
 
