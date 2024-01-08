@@ -1,6 +1,7 @@
-# 🍅 싱싱고 프로젝트: 식품 유통기한 관리 웹 애플리케이션
+# 🍅 싱싱고 프로젝트: 식료품 관리 웹 애플리케이션
 ## 🎯 프로젝트 개요
-   ### 리액트를 활용하여 식품 유통기한 관리 시스템을 구현하며, 팀워크를 바탕으로 프로젝트를 성공적으로 완수하기
+   ### 리액트를 활용하여 식료품 관리 시스템을 구현하며, 팀워크를 바탕으로 프로젝트를 성공적으로 완수
+   ### 사용 기술 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/Java--Script-F7DF1E?style=flat-square&logo=JAVASCRIPT&logoColor=black"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> 
 <p align="center">
   <img src="https://github.com/sslee1210/singsinggo/assets/142865231/44be7707-181e-4aa2-a2f9-06c917f64373.png"  width="300" height="auto"/>
 </p>
