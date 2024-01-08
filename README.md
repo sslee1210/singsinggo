@@ -2,7 +2,7 @@
 ## 🎯 프로젝트의 비전
    ### 리액트를 활용하여 식품 유통기한 관리 시스템을 구현하며, 팀워크를 바탕으로 프로젝트를 성공적으로 완수하기
 <p align="center">
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/44be7707-181e-4aa2-a2f9-06c917f64373.png"  width="350" height="auto"/>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/44be7707-181e-4aa2-a2f9-06c917f64373.png"  width="300" height="auto"/>
 </p>
 
 
@@ -11,31 +11,36 @@
 ### 냉장고 관리
 
 - 식품 등록, 수정, 삭제를 할 수 있어요
+ 
 - 사용자의 식료품을 효율적으로 관리해요
+ 
 - 식품 낭비를 줄이고, 사용자의 경제적 부담을 감소시켜줘요
 
----
 
 ### 장바구니
 
 - 마트에서 장을 보기 전 사용자가 구매할 식료품들을 미리 메모할 수 있어요
+ 
 - 온라인 장보기를 위한 대형 온라인 식품 판매 사이트를 연결 해두었어요
+ 
 - 식품 구매의 효율성을 증대시키고 건강한 식습관을 유도해줘요
 
----
 
 ### 달력
 
 - 언제 식료품을 보관 했는지 한 눈에 파악 가능해요
+ 
 - 보관한 식료품의 유통기한을 쉽게 확인할 수 있어요
+ 
 - 사용자가 식료품을 안전하게 섭취할 수 있도록 도와줘요
 
------------
+---
 
-<p>
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/92d6c9b8-08a9-40d8-9527-b58e07f8ff21.png"  width="200" height="auto"/>
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/2f7fd6b8-9d5d-4f62-bd57-ac31b350c9a9.png"  width="200" height="auto"/>
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/c8aeee3d-ac7f-4f19-9ce5-c9b87b25cc9c.png"  width="200" height="auto"/>
+
+<p align="center">
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/ca0630e2-a578-478e-80c7-85ad11ac4d6e.png"  width="250" height="auto"/>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/2f7fd6b8-9d5d-4f62-bd57-ac31b350c9a9.png"  width="250" height="auto"/>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/c8aeee3d-ac7f-4f19-9ce5-c9b87b25cc9c.png"  width="250" height="auto"/>
 </p>
 
 
