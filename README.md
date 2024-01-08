@@ -119,27 +119,24 @@
     - 로컬스토리지를 통해 데이터를 저장하거나 불러올 수 있음.
   - **해결:**
     - handleId, handlePassword로 입력한 아이디와 비밀번호를 각각 id, pw 상태에 저장, useState를 사용하여 id와 pw를 관리함.
+```
       useEffect(() => {
     const savedUser = localStorage.getItem("user");
     if (savedUser) {
       navigate("/fridge");
     }
   }, [navigate]);
-
   const handleId = (e) => {
     setId(e.target.value);
   };
-
   const handlePassword = (e) => {
     setPw(e.target.value);
   };
-
   const handleLogin = () => {
     const users = JSON.parse(localStorage.getItem("users")); // 로컬 스토리지에서 사용자 정보를 불러옴
     const user = users?.find(
       (user) => user.username === id && user.password === pw
     );
-
     if (user) {
       alert("로그인 성공!");
       localStorage.setItem("user", JSON.stringify(user));
@@ -148,7 +145,7 @@
       alert("로그인 실패. 아이디 또는 비밀번호를 확인해주세요.");
     }
   };
-    
+```
 #### 상황 2
   - **상황:** 캘린더를 통해 지정된 날짜에 등록한 식료품을 나타내는 기능이 구현되지 않음
   - **문제 확인:** 사용 중인 캘린더 플러그인이 우리가 의도한 기능을 구현하지 못하는걸 알게 됨.
