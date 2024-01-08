@@ -173,11 +173,11 @@
     );
 
     if (user) { // 일치하는 유저가 있는 경우
-      alert("로그인 성공!"); // 로그인 성공 메시지 출력
+      alert("로그인 성공!");
       localStorage.setItem("user", JSON.stringify(user)); // 로그인한 유저의 정보를 로컬 스토리지에 저장
-      navigate("/fridge"); // "/fridge" 페이지로 이동
-    } else { // 일치하는 유저 ID가 없는 경우
-      alert("로그인 실패. 아이디 또는 비밀번호를 확인해주세요."); // 로그인 실패 메시지 출력
+      navigate("/fridge");
+    } else {
+      alert("로그인 실패. 아이디 또는 비밀번호를 확인해주세요.");
     }
   };
 ```
@@ -214,8 +214,10 @@
     localStorage.setItem("foodList", JSON.stringify(foodList));
     setSortedFoodList(foodList);
   }, [foodList]);
+
 // 식료품 수정 모달 열기 함수
   const openModal = (food, index) => {
+
     // 수정 중인 음식의 인덱스 및 내용 설정, 모달 열기
     const foodIndex = foodList.findIndex((f) => f === food);
     setEditingIndex(foodIndex);
@@ -230,6 +232,7 @@
 
 // 변경된 내용 저장 함수
 const saveChanges = () => {
+
   // 수정된 식료품 정보로 목록 업데이트, 모달 닫기, 기존 식료품 목록을 복사하여 새로운 배열을 생성
   const newList = [...foodList];
 
