@@ -175,51 +175,61 @@
   - **문제 확인:**
     - 원인 파악을 못하고있고 내가 봤을 땐 수정 컴포넌트를 모달창으로 띄우는 방식에서 데이터를 불러오는 경로가 꼬인거 같음
       
+  - **해결:**
+    - 코드를 싹 다 갈아엎고 처음부터 다시 작성하여 오류를 없앰
+     - useEffect Hook을 사용하여 로컬 스토리지와 상태 업데이트 관리
+     - 로컬 스토리지에 'foodList'라는 키로 식품 목록을 문자열 형태로 저장
+     - foodList에서 주어진 food와 같은 항목을 찾아 그 인덱스를 반환
+      
 ```
 // useEffect Hook을 사용하여 로컬 스토리지와 상태 업데이트 관리
   useEffect(() => {
     localStorage.setItem("foodList", JSON.stringify(foodList));
     setSortedFoodList(foodList);
   }, [foodList]);
-// 음식 편집 모달 열기 함수
+// 식료품 수정 모달 열기 함수
   const openModal = (food, index) => {
-    // 편집 중인 음식의 인덱스 및 내용 설정, 모달 열기
+    // 수정 중인 음식의 인덱스 및 내용 설정, 모달 열기
     const foodIndex = foodList.findIndex((f) => f === food);
     setEditingIndex(foodIndex);
     setEditingFood({ ...food });
     setIsModalOpen(true);
   };
 
-  // 음식 편집 모달 닫기 함수
+  // 식료품 수정 모달 닫기 함수
   const closeModal = () => {
     setIsModalOpen(false);
   };
 
-  // 변경된 내용 저장 함수
-  const saveChanges = () => {
-    // 수정된 음식 정보로 목록 업데이트, 모달 닫기
-    const newList = [...foodList];
-    newList[editingIndex] = editingFood;
-    setFoodList(newList);
-    closeModal();
-  };
+// 변경된 내용 저장 함수
+const saveChanges = () => {
+  // 수정된 식료품 정보로 목록 업데이트, 모달 닫기, 기존 식료품 목록을 복사하여 새로운 배열을 생성
+  const newList = [...foodList];
+
+  // 수정된 식료품을 해당 인덱스에 덮어씌움
+  newList[editingIndex] = editingFood;
+
+  // 식료품 목록을 새로운 목록으로 설정
+  setFoodList(newList);
+
+  closeModal();
+};
 ```
 
 ```
-{/* 음식 편집 모달 */}
+// 식료품 수정 모달
       {isModalOpen && (
         <div className={styles.modal}>
           <div className={styles.modalBox}>
-            {/* 모달 상단: 뒤로가기, 제목 */}
             <img
               src={path + "/images/food_back_blue.svg"}
               alt="뒤로가기"
               className={styles.back}
               onClick={closeModal}
             />
+
             <h2>싱싱고 수정하기</h2>
 
-            {/* 음식 정보 편집 입력란 */}
             <label>
               <select
                 value={editingFood.category}
@@ -297,9 +307,6 @@
               />
             </label>
 ```
-      
-  - **해결:**
-    - 코드를 싹 다 갈아엎고 처음부터 다시 작성하여 오류를 없앰
 
 #### 상황 4
   - **상황:**
