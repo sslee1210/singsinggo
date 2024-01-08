@@ -83,7 +83,7 @@
   
 4. **요구 사항 분석 :** 필요한 기능 및 규격 분석
    
-   ![싱싱고 요구사항](https://github.com/sslee1210/singsinggo/assets/142865231/bb5afb6b-347d-4fd9-8d36-9baf7f1034cd)
+   ![싱싱고_요구사항](https://github.com/sslee1210/singsinggo/assets/142865231/507c5d21-fc10-4bf6-a54a-4226d10baac9)
    
 
    
