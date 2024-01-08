@@ -26,7 +26,9 @@
 ### 장바구니 기능
 
 - 식품 구매의 효율성을 증대시키고 건강한 식습관을 유도한다.
-
+<p align="center">
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/71a48aaa-8789-44e5-8bfc-8c76777dcff5.png"  width="400" height="auto"/>
+</p>
 
 
 ### 달력 기능
