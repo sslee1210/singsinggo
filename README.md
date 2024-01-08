@@ -104,16 +104,18 @@
     8. 들여쓰기는 space 2로 통일한다.
     9. 특별한 기능이 없는 곳에 사용하는 태그는 `<div>`로 통일한다.
 
+<img width="1487" alt="싱싱고 디자인가이드" src="https://github.com/sslee1210/singsinggo/assets/142865231/43abb4c4-b91a-47fc-9944-07982d547586">
+
 ---
-  
-## 7. UI/UX 디자인: 사용자 인터페이스 및 디자인 적용
+    
+## 7. 페이지 기능 구현: 앱 내 각 페이지의 기능을 구현
+### [**🔗 작업일지 바로가기**](https://neighborly-goal-bcc.notion.site/86f809ad5b794106b5941114d4377b67?v=16ddbdec031b4dafbe9e2bb8c0cd5a3d&pvs=4)
+
+---
+
+## 8. UI/UX 디자인: 사용자 인터페이스 및 디자인 적용
     
 ![싱싱고UI](https://github.com/sslee1210/singsinggo/assets/142865231/2c08196a-c7b3-4e16-8d6a-fa48786f3259)
-    
----
-    
-## 8. 페이지 기능 구현: 앱 내 각 페이지의 기능을 구현
-### [**🔗 작업일지 바로가기**](https://www.notion.so/86f809ad5b794106b5941114d4377b67?v=16ddbdec031b4dafbe9e2bb8c0cd5a3d)
 
 ---
     
