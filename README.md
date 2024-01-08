@@ -244,7 +244,7 @@ const saveChanges = () => {
 ```
 
 
-**식료품 수정 모달**
+**식료품 수정 모달창**
 ```
       // isModalOpen이 참일 때만 모달을 표시
       {isModalOpen && (
