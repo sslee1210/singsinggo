@@ -35,8 +35,9 @@
 
 - 보관한 식품의 유통기한을 한눈에 파악할 수 있다.
 - 사용자가 식품을 안전하게 섭취할 수 있도록 돕는다.
-
-
+<p align="center">
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/452ad1f0-65ff-48b8-b79c-e67696d3aaed.png"  width="400" height="auto"/>
+</p>
 ---
 
 ## 🛠 사용 기술 및 도구
