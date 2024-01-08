@@ -38,7 +38,7 @@
 <p align="center">
   <img src="https://github.com/sslee1210/singsinggo/assets/142865231/452ad1f0-65ff-48b8-b79c-e67696d3aaed.png"  width="400" height="auto"/>
 </p>
----
+
 
 ## 🛠 사용 기술 및 도구
 - **TOOL:** `Github` `Figma` `Notion` `Google spread sheet` `Adobe Illustrator`
