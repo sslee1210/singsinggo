@@ -1,7 +1,4 @@
 # 🍅 싱싱고 프로젝트: 식품 유통기한 관리 웹 애플리케이션
-
----
-
 ## 🎯 프로젝트의 비전
 <p align="center">
   <img src="https://github.com/sslee1210/singsinggo/assets/142865231/fd9fa04d-af59-4279-b037-010b70035b2b.png"  width="200" height="auto"/>
