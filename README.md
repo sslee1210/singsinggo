@@ -199,10 +199,10 @@
   - #### 문제 해결:
      full-calendar 라는 다른 플러그인을 사용하여 플러그인이 가지고 있는 날짜에 따른 이벤트를 띄우는 기능을 통해 원하는 기능을 구현 했어요
     
-    **2. FullCalendar 라이브러리 설치**
-    ```
-    npm install @fullcalendar/react @fullcalendar/daygrid
-    ```
+**2. FullCalendar 라이브러리 설치**
+```
+npm install @fullcalendar/react @fullcalendar/daygrid
+```
 
 **2-1. FullCalendar에서 사용할 이벤트 배열 생성**
 ```
