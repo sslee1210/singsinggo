@@ -121,9 +121,9 @@
       
   - **해결:**
     - handleId, handlePassword로 입력한 아이디와 비밀번호를 각각 ID, PW 상태에 저장, useState를 사용하여 ID와 PW를 관리했어요
-      
+
+**1. 페이지가 로드될 때 로컬 스토리지에서 유저 정보를 불러옴**
 ```
-  // 페이지가 로드될 때 로컬 스토리지에서 유저 정보를 불러옴
   useEffect(() => {
     const savedUser = localStorage.getItem("user"); // 로컬 스토리지에서 "user" 항목의 값을 가져옴
     if (savedUser) {
@@ -140,8 +140,10 @@
   const handlePassword = (e) => {
     setPw(e.target.value); // 입력 값을 비밀번호 상태에 저장
   };
+```
 
-  // 로그인 버튼을 클릭했을 때 호출되는 핸들러
+**1-1. 로그인 버튼을 클릭했을 때 호출되는 핸들러**
+```
   const handleLogin = () => {
     const users = JSON.parse(localStorage.getItem("users")); // 로컬 스토리지에서 "users" 항목의 값을 가져와서 파싱
     const user = users?.find(
@@ -179,9 +181,9 @@
     - 결국 코드를 싹 다 갈아엎고 처음부터 다시 작성했어요
     - useEffect Hook을 사용하여 로컬 스토리지와 상태 업데이트 관리했어요
     - 로컬 스토리지에 'foodList'라는 키로 식품 목록을 문자열 형태로 저장하고 foodList에서 주어진 food와 같은 항목을 찾아 그 인덱스를 반환하며 해결 했어요
-      
+
+**2. useEffect Hook을 사용하여 로컬 스토리지와 상태 업데이트 관리**
 ```
-// useEffect Hook을 사용하여 로컬 스토리지와 상태 업데이트 관리
   useEffect(() => {
     localStorage.setItem("foodList", JSON.stringify(foodList));
     setSortedFoodList(foodList);
@@ -215,8 +217,8 @@ const saveChanges = () => {
 };
 ```
 
+**2-1. 식료품 수정 모달**
 ```
-// 식료품 수정 모달
       {isModalOpen && (
         <div className={styles.modal}>
           <div className={styles.modalBox}>
