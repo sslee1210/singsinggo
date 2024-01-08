@@ -23,6 +23,7 @@
 <p>
   <img src="https://github.com/sslee1210/singsinggo/assets/142865231/ca0630e2-a578-478e-80c7-85ad11ac4d6e.png"  width="250" height="auto"/>
 </p>
+
 - 식품 등록, 수정, 삭제를 할 수 있어요
  
 - 사용자의 식료품을 효율적으로 관리해요
