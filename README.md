@@ -113,9 +113,41 @@
 
 ### 문제 및 해결
 #### 상황 1
-  - **상황:** 등록하거나 추가한 데이터가 페이지를 새로 고침 할 때마다 초기화 됨
-  - **문제 확인:** 데이터를 저장할 라이브러리가 없다는 걸 확인 함.
-  - **해결:** 로컬 스토리지를 사용하여 데이터를 문자열 형태로 저장해 새로 고침 후에도 데이터를 유지 함.
+  - **상황:**
+    - 등록하거나 추가한 데이터가 페이지를 새로 고침 할 때마다 초기화 됨
+  - **문제 확인:**
+    - 로컬스토리지를 통해 데이터를 저장하거나 불러올 수 있음.
+  - **해결:**
+    - handleId, handlePassword로 입력한 아이디와 비밀번호를 각각 id, pw 상태에 저장, useState를 사용하여 id와 pw를 관리함.
+      useEffect(() => {
+    const savedUser = localStorage.getItem("user");
+    if (savedUser) {
+      navigate("/fridge");
+    }
+  }, [navigate]);
+
+  const handleId = (e) => {
+    setId(e.target.value);
+  };
+
+  const handlePassword = (e) => {
+    setPw(e.target.value);
+  };
+
+  const handleLogin = () => {
+    const users = JSON.parse(localStorage.getItem("users")); // 로컬 스토리지에서 사용자 정보를 불러옴
+    const user = users?.find(
+      (user) => user.username === id && user.password === pw
+    );
+
+    if (user) {
+      alert("로그인 성공!");
+      localStorage.setItem("user", JSON.stringify(user));
+      navigate("/fridge");
+    } else {
+      alert("로그인 실패. 아이디 또는 비밀번호를 확인해주세요.");
+    }
+  };
     
 #### 상황 2
   - **상황:** 캘린더를 통해 지정된 날짜에 등록한 식료품을 나타내는 기능이 구현되지 않음
