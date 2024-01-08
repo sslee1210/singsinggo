@@ -34,7 +34,7 @@
 
 <p>
   <img src="https://github.com/sslee1210/singsinggo/assets/142865231/92d6c9b8-08a9-40d8-9527-b58e07f8ff21.png"  width="200" height="auto"/>
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/71a48aaa-8789-44e5-8bfc-8c76777dcff5.png"  width="200" height="auto"/>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/2f7fd6b8-9d5d-4f62-bd57-ac31b350c9a9.png"  width="200" height="auto"/>
   <img src="https://github.com/sslee1210/singsinggo/assets/142865231/c8aeee3d-ac7f-4f19-9ce5-c9b87b25cc9c.png"  width="200" height="auto"/>
 </p>
 
