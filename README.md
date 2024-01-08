@@ -1,4 +1,5 @@
 # 🍅 싱싱고 프로젝트: 식품 유통기한 관리 웹 애플리케이션
+<img src="https://github.com/sslee1210/singsinggo/assets/142865231/ff680398-4d88-48f2-b1ad-ca91fd19a5d0" width="800" height="auto"/>
 
 ---
 
