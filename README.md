@@ -148,9 +148,11 @@
 
 ```
   useEffect(() => {
-    const savedUser = localStorage.getItem("user"); // 로컬 스토리지에서 "user" 항목의 값을 가져옴
+
+   // 로컬 스토리지에서 "user" 항목의 값을 가져옴
+    const savedUser = localStorage.getItem("user");
     if (savedUser) {
-      navigate("/fridge"); // 유저 정보가 있으면 "/fridge" 페이지로 이동
+      navigate("/fridge");
     }
   }, [navigate]);
 
@@ -169,14 +171,20 @@
 **1-1. 로그인 버튼을 클릭했을 때 호출되는 핸들러**
 ```
   const handleLogin = () => {
-    const users = JSON.parse(localStorage.getItem("users")); // 로컬 스토리지에서 "users" 항목의 값을 가져와서 파싱
+
+   // 로컬 스토리지에서 "users" 항목의 값을 가져와서 파싱
+    const users = JSON.parse(localStorage.getItem("users"));
     const user = users?.find(
-      (user) => user.username === id && user.password === pw // ID와 비밀번호가 모두 일치하는 유저를 찾음
+
+      // ID와 비밀번호가 모두 일치하는 유저를 찾음
+      (user) => user.username === id && user.password === pw
     );
 
     if (user) { // 일치하는 유저가 있는 경우
       alert("로그인 성공!");
-      localStorage.setItem("user", JSON.stringify(user)); // 로그인한 유저의 정보를 로컬 스토리지에 저장
+
+      // 로그인한 유저의 정보를 로컬 스토리지에 저장
+      localStorage.setItem("user", JSON.stringify(user));
       navigate("/fridge");
     } else {
       alert("로그인 실패. 아이디 또는 비밀번호를 확인해주세요.");
@@ -414,12 +422,12 @@ const saveChanges = () => {
     
 - ### 잘한 점:
   #### 잠을 줄이고 공부 시간을 더 늘려 코딩 능력을 더 향상시키고 리액트를 활용함에 보다 더 능숙해 졌어요
-  #### 저도 낯을 많이 가리지만 팀원들에게 먼저 다가가기로 용기를 냈어요 결국 팀원들과의 원활한 커뮤니케이션 및 협력을 통해 프로젝트를 성공적으로 완성시킬 수 있었어요
+  #### 처음엔 낯을 좀 가렸지만 용기를 내 팀원들에게 먼저 다가갔어요 결국 팀원들과의 원활한 커뮤니케이션 및 협력을 통해 프로젝트를 성공적으로 완성시킬 수 있었어요
    
     
 - ### 배운 점:
   #### 리액트와 관련한 기술적 이해도를 상승시키고 기간 내에 프로젝트를 마무리 지을 수 있었어요
-  #### 처음 한번이 어렵고 다음은 어렵지 않다는걸 깨달았어요 팀원들과의 원활한 커뮤니케이션으로 협업 능력을 향상시켰고 밝은 팀 분위기를 유지하고, 팀원들을 이끌 수 있는 리더십 능력을 키울 수 있었어요
+  #### 처음 만난 사람과의 친밀감을 형성하는 법을 알게 되었어요 팀원들과의 원활한 커뮤니케이션으로 협업 능력을 향상시켰고 밝은 팀 분위기를 유지하였으며, 팀원들을 이끌 수 있는 리더십 능력을 키울 수 있었어요
 
 
 ## [**🔗 싱싱고 바로가기**](https://sslee1210.github.io/singsinggo/)
