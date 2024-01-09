@@ -12,7 +12,9 @@
 ## 🛠 사용 기술 및 도구
 #### **TOOL:** `Github` `Figma` `Notion` `Google spread sheet` `Adobe Illustrator`
   
-#### **WEB FRAMEWORK:** `REACT` `JavaScript` `CSS3`
+#### **WEB FRAMEWORK:** `REACT` `JavaScript`
+
+#### **LIBRARY:**  `css-module` `Router`
 
 ---
 
