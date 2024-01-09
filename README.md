@@ -20,27 +20,23 @@
  ## 1. 주요 기능 선정: 어플리케이션의 핵심 기능을 결정
   ### 냉장고 관리
 
-  <div display="flex">
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/ca0630e2-a578-478e-80c7-85ad11ac4d6e.png"  width="250" height="auto"/>
-  <p>
-    식품 등록, 수정, 삭제를 할 수 있습니다
-  </p>
-  <p>
+<p>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/ca0630e2-a578-478e-80c7-85ad11ac4d6e.png"  width="230" height="auto"/>
+</p>
+
+  - 식품 등록, 수정, 삭제를 할 수 있습니다
+
   - 사용자의 식료품을 효율적으로 관리합니다
-  </p>
-  <p>
+
   - 식품 낭비를 줄이고, 사용자의 경제적 부담을 감소시킵니다  
-  </p>
-  </div>
-  
 
 
 ---
 
   ### 장바구니
   
-  <p>
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/2f7fd6b8-9d5d-4f62-bd57-ac31b350c9a9.png"  width="250" height="auto"/>
+<p>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/2f7fd6b8-9d5d-4f62-bd57-ac31b350c9a9.png"  width="230" height="auto"/>
 </p>
 
 - 마트에서 장을 보기 전 사용자가 구매할 식료품들을 미리 메모할 수 있습니다
@@ -54,7 +50,7 @@
   ### 달력
   
 <p>
-  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/c8aeee3d-ac7f-4f19-9ce5-c9b87b25cc9c.png"  width="250" height="auto"/>
+  <img src="https://github.com/sslee1210/singsinggo/assets/142865231/c8aeee3d-ac7f-4f19-9ce5-c9b87b25cc9c.png"  width="230" height="auto"/>
 </p>
 
 - 언제 식료품을 보관 했는지 한 눈에 파악 가능합니다
